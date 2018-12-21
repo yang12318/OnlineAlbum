@@ -3,6 +3,10 @@ package model;
 public class Comment {
     private int id;
     private int userid;
+    private int picid;
+
+
+
     private String username;
     private String content;
     private String date;
@@ -10,9 +14,10 @@ public class Comment {
     public Comment(){
     }
 
-    public Comment(int id, int userid, String username, String content, String date){
+    public Comment(int id, int userid, int picid, String username, String content, String date){
         this.id = id;
         this.userid = userid;
+        this.picid = picid;
         this.username = username;
         this.content = content;
         this.date = date;
@@ -32,6 +37,14 @@ public class Comment {
 
     public void setUserid(int userid) {
         this.userid = userid;
+    }
+
+    public int getPicid() {
+        return picid;
+    }
+
+    public void setPicid(int picid) {
+        this.picid = picid;
     }
 
     public String getUsername() {
