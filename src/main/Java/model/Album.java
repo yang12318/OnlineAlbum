@@ -6,18 +6,20 @@ public class Album {
     private int userid;
     private String date;
     private String username;
+    private String description;
     private int count;
 
     public Album() {
     }
 
-    public Album(int id, String name, int userid, String date, String username,int count) {
+    public Album(int id, String name, int userid, String date, String username, String description, int count) {
         this.id = id;
         this.name = name;
         this.date = date;
         this.username = username;
         this.userid = userid;
-        this.count = 0;
+        this.description = description;
+        this.count = count;
     }
 
     public int getId() {
@@ -68,4 +70,11 @@ public class Album {
         this.count = count;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

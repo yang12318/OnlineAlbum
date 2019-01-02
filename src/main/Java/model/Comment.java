@@ -4,9 +4,6 @@ public class Comment {
     private int id;
     private int userid;
     private int picid;
-
-
-
     private String username;
     private String content;
     private String date;

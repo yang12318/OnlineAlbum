@@ -1,0 +1,235 @@
+@CHARSET "GB2312";
+body{
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	background-color: #ffffff;
+	filter : progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#F4F4E9);
+    padding:0;
+}
+.top{
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+.menu{
+	margin: 0px 0px 0px 0px;
+	width: 778px;
+	height: 10px;
+	filter : progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#A6CA10,endColorStr=#D1F245);
+	text-align: left;
+	color: #666600;
+	font-size: 14px;
+}
+.main{
+	margin: 0px 0px 0px 0px;
+	width: 772px;
+	height: 400px;
+	border-top-color:#D1F245;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-left-color:#D1F245;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-right-color: #D1F245;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-bottom-color: #D1F245;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+}
+
+.left{
+	margin: 2px 2px 2px 2px;
+	width: 160px;
+	height:400px;
+	float:left;
+	border-color:#C9D6B6;
+	border-style: solid;
+	border-width: 3px;
+}
+.userInfo{
+	margin: 2px 2px 2px 2px;
+	width: 150px;
+	height:160px;
+	float:left;
+	border-color:#EAEAE8;
+	border-style: solid;
+	border-width: 3px;
+	font-size: 12px;
+	color: #666600;
+	text-align: center;
+}
+.newComment{
+	margin: 0px 0px 2px 2px;
+	width: 150px;
+	height:240px;
+	float:left;
+	border-color:#EAEAE8;
+	border-style: solid;
+	border-width: 3px;
+}
+.photoes{
+	margin: 2px 2px 2px 2px;
+	width: 585px;
+	height:418px;
+	float:left;
+	border-color:#C9D6B6;
+	border-style: solid;
+	border-width: 3px;
+}
+.mainAdmin{
+	margin: 2px 2px 2px 2px;
+	width: 760px;
+	height:418px;
+	float:left;
+	border-color:#C9D6B6;
+	border-style: solid;
+	border-width: 3px;
+}
+.page{
+	width: 750px;
+	text-align: right;
+}
+.category{
+	margin: 7px 7px 7px 7px;
+	width: 121px;
+	height: 150px;
+	float: left;
+	border-color:#C9D6B6;
+	border-style: solid;
+	border-width: 3px;
+}
+.button{
+	border:1px solid #fff;
+	background-color:#cccc99;
+	width: 50px;
+}
+.imageDiv{
+	width: 140px;
+	height: 140px;
+	border-color: #666600;
+    border-style: solid;
+    border-width: 2px;
+    margin: 2px 2px 2px 2px;
+}
+.userImage{
+	width: expression(this.width>140&&this.width>this.height?140:true);
+    height: expresion(this.height>140?140:true);    
+}
+.categoryTable{
+	margin: 12px 4px 0px 4px;
+	border-color: #C9D6B6;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	color: #666600;
+}
+table{
+	margin: 12px 4px 0px 4px;
+	border-color: #C9D6B6;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	color: #666600;
+}
+table tr{
+	border-color: #C9D6B6;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	color: #666600;
+}
+table tr td{
+	border-color: #C9D6B6;
+	border-style: solid;
+	border-width: 1px;
+	font-size: 12px;
+	color: #666600;
+}
+a{
+	font-size: 12px;
+	color: #666600;
+	cursor: pointer;
+}
+a:hover{
+	font-size: 12px;
+	color: red;
+	text-decoration: none;
+}
+input{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+	color: #666600;
+}
+input:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+	background-color: #A6CA10;
+}
+textarea{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+	overflow: auto;
+}
+span a{
+	font-size: 14px;
+	color: #666600;
+	cursor: pointer;
+	text-decoration: none;
+}
+span a:hover{
+	font-size: 14px;
+	color: red;
+	text-decoration: underline;
+}  
+.categoryImg{
+	width: expression(this.width> 75 ? 75:true);
+    height: expresion(this.height>75? 75:true);   
+    border-color: #666600;
+    border-style: solid;
+    border-width: 2px;
+}
+.categoryPhoto{
+	width: expression(this.width> 110 && this.width> this.height? 110:true);
+    height: expresion(this.height>110? 110:true);   
+    border-color: #666600;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.respDiv{
+	width: 750px;
+	height: 20px;
+	text-align:center;
+	font-size:14px;
+	color:#666600;
+	background-color:#ffffff;
+	border-color: #666600;
+	border-style: solid;
+	border-width: 3px;
+	left:50%; 
+	margin:-170px 0 0 -370px; 
+	position:absolute; 
+	top:60%;
+}
+.photoBig{
+	width: expression(this.width>350&&this.width>this.height?350:true);
+    height: expresion(this.height>350?350:true);   
+}
+.photoSmall{
+	margin: 5px 5px 5px 5px;
+	width: expression(this.width > 130 && this.width > this.height ? 130 : true);
+	height: expression(this.height > 150 ? 150 : true);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #666600;
+}
+.commentItem{
+	width:132px; 
+	text-align:left;
+	overflow:hidden; /*不显示超过对象宽度的内容*/ 
+	text-overflow:ellipsis; /*当对象内文本溢出时显示省略标记（...）*/ 
+	white-space:nowrap; /*限制在一行内显示所有文本*/ 	
+}

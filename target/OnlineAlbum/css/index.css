@@ -1,0 +1,118 @@
+
+.head{
+    width:100%;
+    background: url(../img/15154926418211640_178536587.jpg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    padding-top: 10px;
+    font-size:25px;
+}
+nav li{
+    line-height: 40px;
+    color: #ffffff;
+    padding-right: 32px;
+    float: right;
+}
+nav a:hover{
+    color: #46d233;
+    cursor: pointer;
+}
+.container{
+    width:100%;
+    padding: 200px 0 ;
+}
+.title{
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    margin:15px auto;
+    cursor: pointer;
+    background: url(../img/login-btn-bg-240x58_680b080.jpg) no-repeat;
+    font-size: 25px;
+    display: inline-block;
+}
+.button:hover{
+    opacity: 2;
+}
+.button span{
+    margin-top: 8px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.body{
+    width: 100%;
+}
+.content_container{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.content_container h4{
+    padding: 0 10px;
+    font-size: 32px;
+    display: inline-block;
+}
+.icon{
+    display: inline-block;
+    border-radius: 50%;
+    border: 4px solid #46d233;
+    height: 6px;
+    width: 6px;
+    line-height: 40px;
+    position: relative;
+    top: -4px;
+}
+.content{
+    margin-top: 50px;
+    text-align: center;
+}
+.img{
+    width: 285px;
+    height: 285px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+.img:hover .imgName{
+    opacity: 0.8;
+}
+.img img{
+    height: auto;
+    width: 100%;
+
+}
+
+.imgName{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    left: 0;
+    height: 30px;
+    opacity: 0;
+    z-index: 100;
+    float: left;
+    transition: .2s;
+}
+.imgName span{
+    padding: 5px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    float: left;
+}

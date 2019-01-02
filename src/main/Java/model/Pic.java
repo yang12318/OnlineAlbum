@@ -3,15 +3,23 @@ package model;
 public class Pic {
     private int id;
     private String url;
-    private String md5;
+    private int albumid;
+    private String title;
+    private String description;
+    private String publishtime;
+    private String filename;
 
     public Pic() {
     }
 
-    public Pic(int id, String url, String md5) {
+    public Pic(int id, String url, int albumid, String title, String description, String publishtime, String filename) {
         this.id = id;
         this.url = url;
-        this.md5 = md5;
+        this.albumid = albumid;
+        this.title = title;
+        this.description = description;
+        this.publishtime = publishtime;
+        this.filename = filename;
     }
 
     public int getId() {
@@ -30,19 +38,43 @@ public class Pic {
         this.url = url;
     }
 
-    public String getMd5() {
-        return md5;
+    public int getAlbumid() {
+        return albumid;
     }
 
-    public void setMd5(String md5) {
-        this.md5 = md5;
+    public void setAlbumid(int albumid) {
+        this.albumid = albumid;
     }
 
-    public boolean equals(Object obj) {
-        if(obj instanceof Pic) {
-            Pic pic = (Pic) obj;
-            return id == pic.getId() && md5.equals(pic.getMd5());
-        }
-        return false;
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getPublishtime() {
+        return publishtime;
+    }
+
+    public void setPublishtime(String publishtime) {
+        this.publishtime = publishtime;
+    }
+
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 }
