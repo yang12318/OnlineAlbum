@@ -16,7 +16,7 @@
     <nav>
         <ul class="clearfix">
             <li><span><a href="../register">注册</a></span></li>
-            <li ><span><a href="../login">登录</a></span></li>
+            <li><span><a href="../login">登录</a></span></li>
         </ul>
     </nav>
     <div class="title">
