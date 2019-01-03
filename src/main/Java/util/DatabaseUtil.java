@@ -9,8 +9,8 @@ import java.util.ResourceBundle;
 public class DatabaseUtil {
 
 	public static String URL = "jdbc:mysql://localhost:3306/webdb?useSSL=false&serverTimezone=UTC";
-	public static String USERNAME = "group30";
-	public static String PASSWORD = "password";
+	public static String USERNAME = "root";
+	public static String PASSWORD = "55224480";
 	public static String DRIVER = "com.mysql.cj.jdbc.Driver";
 	//private static ResourceBundle rb = ResourceBundle.getBundle("util.db.db-config");
 

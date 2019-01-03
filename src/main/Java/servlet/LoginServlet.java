@@ -23,8 +23,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
-        String username = (String) session.getAttribute("user");
-        if(username != null) {
+        User user = (User) session.getAttribute("user");
+        if(user != null) {
             resp.sendRedirect("../homepage");
         }
         else {

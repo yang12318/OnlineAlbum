@@ -10,8 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-<link rel="stylesheet" href="css/initialization.css">
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="CSS/initialization.css">
+<link rel="stylesheet" href="CSS/index.css">
 <div class="head">
     <nav>
         <ul class="clearfix">

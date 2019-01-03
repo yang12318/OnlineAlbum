@@ -8,8 +8,8 @@
     <title>注册</title>
 </head>
 <body>
-<link rel="stylesheet" href="css/initialization.css">
-<link rel="stylesheet" href="css/Login.css">
+<link rel="stylesheet" href="CSS/initialization.css">
+<link rel="stylesheet" href="CSS/Login.css">
 <div class="body">
     <div class="body_container">
         <div class="head">
